@@ -5,7 +5,7 @@
 @description Make GitLab prettier
 @author      mpoindexer
 @preprocessor stylus
-@var text domain 'Domain to apply to' 'gitlab.com'
+@var text domain 'Domain to apply to' gitlab.com
 ==/UserStyle== */
 
 @-moz-document domain(domain) {
