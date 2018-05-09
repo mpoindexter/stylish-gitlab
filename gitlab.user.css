@@ -7,7 +7,7 @@
 @var text domain 'Domain to apply to' 'gitlab.com'
 ==/UserStyle== */
 
-@-moz-document domain("git.housecanary.net") {
+@-moz-document domain(domain) {
 tr.tree-item > td {
     padding-top: 5px !important;
     padding-bottom: 5px !important;
