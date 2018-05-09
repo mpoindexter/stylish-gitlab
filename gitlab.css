@@ -1,0 +1,130 @@
+@-moz-document domain("git.housecanary.net") {
+tr.tree-item > td {
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+}
+
+.tree-content-holder > .table-holder {
+    border-left: 1px solid #dfe2e5;
+    border-bottom-right-radius: 3px;
+    border-right: 1px solid #dfe2e5;
+    border-bottom-left-radius: 3px;
+}
+
+#tree-slider > thead {
+	display: none;
+}
+
+.project-last-commit, body[data-page="projects:blob:show"] .info-well {
+    margin-bottom: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    background-color: #f1f8ff;
+}
+
+.project-last-commit .well-segment, body[data-page="projects:blob:show"] .info-well .well-segment {
+    padding: 8px;
+    font-size: small;
+}
+
+.project-last-commit .commit-sha, body[data-page="projects:blob:show"] .info-well .commit-sha {
+    font-size: small;
+}
+
+.tree-item-file-name a {
+    color: #0366d6 !important;
+}
+
+.avatar-container.project-avatar {
+    display: none;
+}
+
+.project-title.qa-project-name {
+    display: none;
+}
+
+.project-stats {
+    display: none;
+}
+
+.tree-holder .tree-item .tree-item-file-name i {
+    color: rgba(3,47,98,0.5);
+}
+
+.project-home-panel .project-home-desc {
+    font-size: large;
+    text-align: left;
+    margin-left: 0px;
+}
+
+body[data-page="projects:merge_requests:show"] aside.js-issuable-sidebar {
+    display: none;
+}
+
+body[data-page="projects:merge_requests:show"] > .layout-page > .content-wrapper {
+    padding-right: initial !important;
+}
+
+.discussion-notes {
+    margin: 7px;
+    border: 1px solid #dadada;
+    border-radius: 2px;
+}
+
+.code.white .line_holder .line_content.match {
+    color: rgba(0,0,0,0.3);
+    background-color: #f1f8ff;
+}
+
+.merge-request .detail-page-description {
+    padding-bottom: 0;
+    border-bottom: 0;   
+}
+
+.merge-request .detail-page-description .title {
+    border-bottom: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.merge-request .detail-page-header {
+    max-width: initial;
+    margin-left: initial;
+    margin-right: initial;
+    border-top: 0;
+}
+
+.merge-request .merge-request-tabs-container {
+    margin-left: initial;
+    margin-right: initial;
+    max-width: initial;
+}
+
+body[data-page="projects:merge_requests:index"] .container-limited {
+	max-width: 990px;
+}
+
+
+body[data-page="projects:blob:show"] .file-header-content .fa-file-text {
+    display: none;
+}
+
+body[data-page="projects:blob:show"] .file-header-content .file-title-name {
+    display: none;
+}
+
+body[data-page="projects:blob:show"] .file-actions .btn-remove {
+    color: #2e2e2e;
+    background-color: #fff;
+    border-color: #e7e9ed;
+}
+
+.nav-sidebar.sidebar-collapsed-desktop .shortcuts-merge_requests > .merge_counter {
+    display: block !important;
+    position: absolute;
+    right: 3px;
+    margin-top: 9px;
+    background-color: rgba(0,0,0,.3);
+    color: white !important;
+}
+}
