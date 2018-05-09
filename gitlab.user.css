@@ -4,10 +4,11 @@
 @version     1.0.2
 @description Make GitLab prettier
 @author      mpoindexer
-@preprocessor stylus
+@preprocessor uso
+@var text domain "Domain to apply to" "gitlab.com"
 ==/UserStyle== */
 
-@-moz-document domain('gitlab.com') {
+@-moz-document domain(/*[[domain]]*/) {
 tr.tree-item > td {
     padding-top: 5px !important;
     padding-bottom: 5px !important;
