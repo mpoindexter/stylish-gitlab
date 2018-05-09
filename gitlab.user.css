@@ -1,9 +1,10 @@
 /* ==UserStyle==
 @name        Make GitLab prettier
 @namespace   github.com/mpoindexter/stylish-gitlab
-@version     1.0.1
+@version     1.0.2
 @description Make GitLab prettier
 @author      mpoindexer
+@preprocessor stylus
 @var text domain 'Domain to apply to' 'gitlab.com'
 ==/UserStyle== */
 
