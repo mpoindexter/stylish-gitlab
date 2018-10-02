@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        Make GitLab prettier
 @namespace   github.com/mpoindexter/stylish-gitlab
-@version     1.0.2
+@version     1.0.3
 @description Make GitLab prettier
 @author      mpoindexer
 @preprocessor uso
@@ -137,4 +137,6 @@ body[data-page="projects:blob:show"] .file-actions .btn-remove {
     background-color: rgba(0,0,0,.3);
     color: white !important;
 }
+	
+.project-license { display: none !important }
 }
